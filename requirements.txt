@@ -1,3 +1,4 @@
+
 streamlit
 langchain
 openai
@@ -5,9 +6,8 @@ python-dotenv
 tiktoken
 faiss-cpu
 PyPDF2
-streamlit-authenticator
-pymongo
-certifi
 langchain-community
 langchain-openai
-toml
+
+
+

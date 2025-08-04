@@ -12,7 +12,7 @@ def main():
     Main function to run the Streamlit application.
     """
     load_dotenv()
-    st.set_page_config(page_title="Chat with your Product Manual", page_icon=":books:")
+    st.set_page_config(page_title="Chat with your Academic Paper ", page_icon=":books:")
 
     # --- CUSTOM CSS FOR STYLING ---
     st.markdown("""
@@ -33,13 +33,13 @@ def main():
         st.session_state.vector_store = None
 
     # --- UI LAYOUT ---
-    st.header("Chat with Your Product Manual 💬")
-    st.write("Upload a PDF manual, and I'll answer your questions about it.")
+    st.header("Chat with Your Academic Paper 💬")
+    st.write("Upload a PDF, and I'll answer your questions about it.")
 
     # --- SIDEBAR FOR FILE UPLOAD AND CHAT CLEAR ---
     with st.sidebar:
         st.subheader("Your Document")
-        pdf_doc = st.file_uploader("Upload your PDF manual and click 'Process'", type="pdf")
+        pdf_doc = st.file_uploader("Upload your PDF  and click 'Process'", type="pdf")
         
         if st.button("Process"):
             if pdf_doc is not None:
