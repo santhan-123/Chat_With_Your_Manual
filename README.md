@@ -1,7 +1,7 @@
 # Chat with Your PDF - A RAG Application
 
 ## Introduction
-
+This project is done by Santhan . 
 This project is an intelligent, conversational AI application that allows you to "chat" with your documents. You can upload any PDF, and the application will use a Retrieval-Augmented Generation (RAG) model, powered by OpenAI and LangChain, to answer your questions based on the content of that specific document.
 
 This application demonstrates a streamlined approach to building modern AI tools, focusing on a powerful AI backend for question-answering and an interactive web interface built with Streamlit.
